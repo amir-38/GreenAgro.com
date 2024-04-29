@@ -37,8 +37,9 @@ You can contribute to the development of the project by creating Issues and Pull
 ## Contact
 
 If you have any questions or suggestions regarding the project, feel free to contact me:
-- Email: amir.sarukhanov.dev@gmail.com
-- LinkedIn: [Your LinkedIn Profile](www.linkedin.com/in/amir-sarukhanov-dev)
+- Email: [amir.sarukhanov.dev@gmail.com](mailto:amir.sarukhanov.dev@gmail.com)
+- LinkedIn: [Amir Sarukhanov](https://www.linkedin.com/in/amir-sarukhanov-dev)
+
 
 ## Links
 
