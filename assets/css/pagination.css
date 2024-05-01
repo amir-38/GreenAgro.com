@@ -11,12 +11,51 @@ margin: 50px;
 }
 .price{
     color: #f33f3f;
+    padding: 10px;
+
 }
 .name{
-    font-size: 20px;
+    font-size: 30px;
 }
+.txt{
+font-size: 16px;
+padding: 10px 0px 20px 0px;
+}
+
+.bottom-cont{
+    display: flex;
+    justify-content: space-between;
+}
+.sifaris{
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #f33f3f;
+    border: none;
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.sifaris:hover{
+    color: #ddd;
+    background-color: black;
+}
+
+
+
+
+
   .data-container{
     margin: 100px 180px;
+    @media screen and (max-width: 600px) {
+margin: 50px;      }
+      @media screen and (min-width: 601px) and (max-width: 900px) {
+margin: 50px;    }
+    @media screen and (min-width: 901px) {
+
+margin: 70px;
+    }
   }
 .pagination { 
     text-align: center; 
@@ -47,6 +86,22 @@ margin: 50px;
     grid-template-columns: repeat(3, 1fr); 
     gap: 20px; 
 } 
+/* CSS for screens smaller than 600px */
+.card-container{
+    @media screen and (max-width: 600px) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      @media screen and (min-width: 601px) and (max-width: 900px) {
+        grid-template-columns: repeat(2,1fr);
+    }
+    @media screen and (min-width: 901px) {
+grid-template-columns: repeat();
+    }
+}
+
+  
+  
+  
   
 .card { 
     border: 1px solid #ddd; 
@@ -55,6 +110,7 @@ margin: 50px;
     box-shadow: 0 2px 20px 0px rgba(0, 0, 0, 0.1); 
     background-color: #fff; 
     text-align: center; 
+
 } 
   
 .card img { 

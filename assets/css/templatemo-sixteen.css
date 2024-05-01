@@ -5,6 +5,9 @@ TemplateMo 546 Sixteen Clothing
 https://templatemo.com/tm-546-sixteen-clothing
 
 */
+html{
+	scroll-behavior: smooth;
+}
 body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
@@ -596,7 +599,6 @@ footer {
 }
 
 footer .inner-content {
-	border-top: 1px solid #eee;
 	margin-top: 40px;
 	padding: 20px 0px;
 }
@@ -1109,4 +1111,12 @@ margin-left: 6px;
 
 .contact-section{
 	margin-bottom: 90px;
+}
+
+/* footer  */
+
+.footer-texts{
+	display: flex;
+	border-bottom: 1px solid #eee;
+justify-content: space-between;
 }
