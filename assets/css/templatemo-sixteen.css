@@ -98,7 +98,21 @@ a.filled-button:hover {
 /* .about-heading {
 	background-image: url(../images/about-heading.jpg);
 } */
-
+.lg{
+	width: 55px;
+	height: 55px;
+margin-right: 10px;
+}
+@media (max-width: 480px) {
+	.lg{
+		width: 35px;
+		height: 35px;
+	margin-right: 10px;
+	}
+}
+.lg img{
+	width: 100%;
+}
 .contact-heading {
 	background-image: url(../images/contact-heading.jpg);
 }
@@ -125,6 +139,23 @@ a.filled-button:hover {
 	text-transform: uppercase;
 	letter-spacing: 5px;
 }
+@media  (max-width:768px)  {
+	.page-heading .text-content h1 {
+		color: #f33f3f;
+		font-size: 40px;
+		text-transform: uppercase;
+		/* letter-spacing: 5px; */
+	}
+}
+@media  (max-width:480px)  {
+	.page-heading .text-content h1 {
+		color: #f33f3f;
+		font-size: 30px;
+		text-transform: uppercase;
+		/* letter-spacing: 5px; */
+	}
+}
+
 
 #preloader {
   overflow: hidden;
@@ -247,6 +278,8 @@ header .navbar {
 	float: 	left;
 	margin-top: -12px;
 	outline: none;
+	display: flex;
+	align-items: center;
 }
 .navbar .navbar-brand h2 {
 	color: #fff;
