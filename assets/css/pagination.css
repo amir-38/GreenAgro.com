@@ -69,8 +69,21 @@ margin: 70px;
     border: 1px solid #f33f3f; 
     margin: 0 5px; 
     border-radius: 4px; 
+    
 } 
-  
+/* add to project */
+.pagination a {
+    @media screen and (max-width: 480px) {
+        padding: 4px 10px;
+        margin: 0 2px;
+    }
+}
+#prev,#next,#page-numbers {
+    @media screen and (max-width: 480px) {
+        display: none;
+    }
+}
+/* to here  */
 .pagination a:hover { 
     background-color: #f33f3f; 
     color: white; 

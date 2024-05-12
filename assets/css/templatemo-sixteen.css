@@ -115,6 +115,11 @@ margin-right: 10px;
 }
 .contact-heading {
 	background-image: url(../images/contact-heading.jpg);
+	@media screen and (max-width: 480px) {
+        background-size: contain;
+        background-repeat: no-repeat; /* Чтобы изображение не повторялось */
+        background-position: center; /* Чтобы изображение было выровнено по центру блока */
+    }
 }
 
 .page-heading {
@@ -1152,4 +1157,8 @@ margin-left: 6px;
 	display: flex;
 	border-bottom: 1px solid #eee;
 justify-content: space-between;
+}
+
+.haqqında-txt{
+	font-size: 18px;
 }
