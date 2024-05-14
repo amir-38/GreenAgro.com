@@ -1,6 +1,6 @@
 # Your Website Name
 
-GreenAgroNachichevan
+GreenAgroNakhichivan
 
 ## Description
 
@@ -19,10 +19,6 @@ This website is an online platform for agro-commodity products and medicines. It
 - CSS (with Bootstrap for styling)
 - JavaScript
 - SEO Optimization
-
-## Demo
-
-[Demo Link](link)
 
 ## Installation and Setup
 
@@ -44,4 +40,4 @@ If you have any questions or suggestions regarding the project, feel free to con
 ## Links
 
 - [Official Website](https://greenagronakhchivan.az/)
-- [GitHub Repository](link)
+- [GitHub Repository](https://github.com/amir-38/GreenAgro.com)
